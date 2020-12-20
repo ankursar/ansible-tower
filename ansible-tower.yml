@@ -1,5 +1,5 @@
 ---
-- name: Install Ansible Tower
+- name: Install Ansible Tower on CentOS/Redhat
   hosts: all
   #remote_user: root
   # remote_user: user
