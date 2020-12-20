@@ -1,0 +1,10 @@
+---
+- name: Install Ansible Tower
+  hosts: all
+  #remote_user: root
+  # remote_user: user
+  become: true
+#  become_method: sudo
+
+  roles:
+    - ansible-tower

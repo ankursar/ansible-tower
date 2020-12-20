@@ -1,0 +1,22 @@
+[tower]
+localhost ansible_connection=local
+
+[database]
+
+[all:vars]
+admin_password='P@ssw0rd!21'
+
+pg_host=''
+pg_port=''
+
+pg_database='awx'
+pg_username='awx'
+pg_password='PgStrongPassword'
+
+rabbitmq_username=tower
+rabbitmq_password='RabbitmqPassword'
+rabbitmq_cookie=cookiemonster
+
+# Isolated Tower nodes automatically generate an RSA key for authentication;
+# # To disable this behavior, set this value to false
+# # isolated_key_generation=true
